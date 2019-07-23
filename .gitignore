@@ -1,3 +1,8 @@
+# Artifacts
+.cache
+dist
+lib
+
 # Logs
 logs
 *.log

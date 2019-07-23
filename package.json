@@ -1,0 +1,33 @@
+{
+  "name": "imprest",
+  "version": "0.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/luk707/imprest.git",
+  "author": "Luke Harris <lukeharris01170@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-typescript": "^7.3.3",
+    "@types/react": "^16.8.23",
+    "@types/react-dom": "^16.8.5",
+    "parcel-bundler": "^1.12.3",
+    "typescript": "^3.5.3"
+  },
+  "peerDependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "scripts": {
+    "dev": "parcel docs/index.html",
+    "docs": "parcel build docs/index.html",
+    "build": "babel ./src --out-dir lib -x .ts -x .tsx"
+  }
+}
