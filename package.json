@@ -1,7 +1,7 @@
 {
   "name": "imprest",
   "version": "0.0.0",
-  "main": "index.js",
+  "main": "lib/index.js",
   "repository": "https://github.com/luk707/imprest.git",
   "author": "Luke Harris <lukeharris01170@gmail.com>",
   "license": "MIT",
