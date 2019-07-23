@@ -7,7 +7,7 @@ const colorPrimary = "#550DD1";
 const colorLight = "#FFFFFF";
 const colorDark = "#000000";
 
-export const darkTheme: Theme = {
+export const lightTheme: Theme = {
   // Color constants
 
   colorPrimary,

@@ -1,3 +1,3 @@
 export { buttonPrimaryStyles } from "./button";
-export { darkTheme } from "./dark-theme";
+export { lightTheme } from "./light-theme";
 export { Theme } from "./theme";
