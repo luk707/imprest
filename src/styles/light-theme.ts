@@ -1,6 +1,8 @@
 import { transparentize } from "polished";
 
 import { Theme } from "./theme";
+import { Breakpoint } from "./breakpoint";
+import { Spacing } from "./spacing";
 
 const colorPrimary = "#550DD1";
 
@@ -13,6 +15,26 @@ export const lightTheme: Theme = {
   colorPrimary,
   colorLight,
   colorDark,
+
+  // Breakpoint constants
+
+  breakpoints: {
+    [Breakpoint.xs]: 414,
+    [Breakpoint.sm]: 568,
+    [Breakpoint.md]: 768,
+    [Breakpoint.lg]: 1112,
+    [Breakpoint.xl]: 1200
+  },
+
+  // Spacing constants
+
+  spacings: {
+    [Spacing.xs]: 3,
+    [Spacing.sm]: 6,
+    [Spacing.md]: 12,
+    [Spacing.lg]: 24,
+    [Spacing.xl]: 48
+  },
 
   // Button constants
 
@@ -30,5 +52,6 @@ export const lightTheme: Theme = {
     colorLight
   )}, 0px -1px 2px ${transparentize(0.8, colorDark)}`,
   buttonPrimaryBorderRadius: "3px",
-  buttonPadding: "9px 20px"
+  buttonVerticalPadding: Spacing.sm,
+  buttonHorizontalPadding: Spacing.lg
 };

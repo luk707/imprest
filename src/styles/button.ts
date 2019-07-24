@@ -1,16 +1,33 @@
 import { CSSObject } from "@emotion/core";
 
 import { Theme } from "./theme";
+import { boxStyles } from "./box";
+import { Spacing } from "./spacing";
 
 export function buttonPrimaryStyles(theme: Theme): CSSObject {
+  const {
+    buttonPrimaryBorderRadius,
+    buttonPrimaryBackgroundColor,
+    buttonPrimaryShadow,
+    buttonPrimaryTextShadow,
+    buttonPrimaryTextColor,
+    spacings,
+    buttonHorizontalPadding,
+    buttonVerticalPadding
+  } = theme;
+
   return {
     border: "none",
-    borderRadius: theme.buttonPrimaryBorderRadius,
+    borderRadius: buttonPrimaryBorderRadius,
     cursor: "pointer",
-    padding: theme.buttonPadding,
-    backgroundColor: theme.buttonPrimaryBackgroundColor,
-    boxShadow: theme.buttonPrimaryShadow,
-    textShadow: theme.buttonPrimaryTextShadow,
-    color: theme.buttonPrimaryTextColor
+    backgroundColor: buttonPrimaryBackgroundColor,
+    boxShadow: buttonPrimaryShadow,
+    textShadow: buttonPrimaryTextShadow,
+    color: buttonPrimaryTextColor,
+    ...boxStyles({
+      theme,
+      px: spacings[buttonHorizontalPadding],
+      py: spacings[buttonVerticalPadding]
+    })
   };
 }
