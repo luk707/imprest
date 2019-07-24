@@ -2,7 +2,6 @@ import { CSSObject } from "@emotion/core";
 
 import { Theme } from "./theme";
 import { boxStyles } from "./box";
-import { Spacing } from "./spacing";
 
 export function buttonPrimaryStyles(theme: Theme): CSSObject {
   const {
