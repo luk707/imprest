@@ -1,7 +1,7 @@
 ![GitHub issues](https://img.shields.io/github/issues/luk707/imprest)
 ![GitHub](https://img.shields.io/github/license/luk707/imprest)
 
-![https://discord.gg/GE4TKC5](https://img.shields.io/badge/dynamic/json?label=Discord&query=%24.members.length&suffix=%20members&url=https%3A%2F%2Fdiscordapp.com%2Fapi%2Fguilds%2F604391064031199307%2Fwidget.json&style=social&logo=discord)
+![https://discord.gg/GE4TKC5](https://img.shields.io/badge/dynamic/json?label=Discord&query=%24.members.length&url=https%3A%2F%2Fdiscordapp.com%2Fapi%2Fguilds%2F604391064031199307%2Fwidget.json&style=social&logo=discord)
 ![Twitter Follow](https://img.shields.io/twitter/follow/_lukeharris?style=social)
 
 # Imprest
