@@ -16,7 +16,7 @@ Imprest offers a set of themable, reusable components following a rigid atomic d
 
 Imprest is not yet considered stable for use, for now take a look at the _work in progress_ documentation website.
 
-Please take consider [contributing](CONTRIBUTING.md) if this project could be of any interest or use to you!
+Please consider [contributing](CONTRIBUTING.md) if this project could be of any interest or use to you!
 
 # Where can I get more help, if I need it
 
