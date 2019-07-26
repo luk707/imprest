@@ -1,8 +1,8 @@
-![GitHub issues](https://img.shields.io/github/issues/luk707/imprest)
-![GitHub](https://img.shields.io/github/license/luk707/imprest)
+[![GitHub issues](https://img.shields.io/github/issues/luk707/imprest)](https://github.com/luk707/imprest/issues)
+[![GitHub](https://img.shields.io/github/license/luk707/imprest)](https://choosealicense.com/licenses/mit/)
 
-![https://discord.gg/GE4TKC5](https://img.shields.io/badge/dynamic/json?label=Discord&query=%24.members.length&url=https%3A%2F%2Fdiscordapp.com%2Fapi%2Fguilds%2F604391064031199307%2Fwidget.json&style=social&logo=discord)
-![Twitter Follow](https://img.shields.io/twitter/follow/_lukeharris?style=social)
+[![Discord Server](https://img.shields.io/badge/dynamic/json?label=Discord&query=%24.members.length&url=https%3A%2F%2Fdiscordapp.com%2Fapi%2Fguilds%2F604391064031199307%2Fwidget.json&style=social&logo=discord)](https://discord.gg/GE4TKC5)
+[![Twitter Follow](https://img.shields.io/twitter/follow/_lukeharris?style=social)](https://twitter.com/_lukeharris)
 
 # Imprest
 
