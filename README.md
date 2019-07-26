@@ -1,29 +1,23 @@
-# imprest
+![GitHub issues](https://img.shields.io/github/issues/luk707/imprest)
+![GitHub](https://img.shields.io/github/license/luk707/imprest)
 
-React component library
+![https://discord.gg/GE4TKC5](https://img.shields.io/badge/dynamic/json?label=Discord&query=%24.members.length&suffix=%20members&url=https%3A%2F%2Fdiscordapp.com%2Fapi%2Fguilds%2F604391064031199307%2Fwidget.json&style=social&logo=discord)
+![Twitter Follow](https://img.shields.io/twitter/follow/_lukeharris?style=social)
 
-![example button](./example.png)
+# Imprest
 
-TL;DR? Take a look at the [contributing](#contributing) section, and fire it up on your local machine.
+A react component library aimed at those who need a solid foundation of react components and view templates that scale with their projects' needs.
 
-## Project goals
+# Why is this project useful
 
-This project aims to build a simple component library that can be dropped into any React project with ease. It will follow [atomic design](http://bradfrost.com/blog/post/atomic-web-design/) principles meaning the end user has the option to use pre built templates for login, sign - up, dashboards etc. and the low level components such buttons as form controls so the user can build custom experiences. Imprest will also make no assumptions about your applications and provide a view layer only (i.e. no redux or form libraries).
+Imprest offers a set of themable, reusable components following a rigid atomic design principle. It does so through the implementation of very specific views that are commonly used across many applications, as well as exposing it's foundational components so that users can implement their own more proprietory views.
 
-## Theming
+# How do I get started
 
-In order to make Imprest an appealing choice amungst all the other component libraries. Imprest will look good out the box, and adapt to any brand of your choice. Since the theme is injected via context, you can share components across apps with different branding!
+Imprest is not yet considered stable for use, for now take a look at the _work in progress_ documentation website.
 
-_Take a look at `src/styles` for mor information on how theming is configured_
+Please take consider [contributing](CONTRIBUTING.md) if this project could be of any interest or use to you!
 
-## Contributing
+# Where can I get more help, if I need it
 
-I'd love for people to help get involved in this project and am open to help from people of all levels of experience in React.
-
-To contribute please follow the following steps to get this project setup on your local computer:
-
-1.  Clone the repository to your computer & use `yarn install` to get fetch the dependencies.
-2.  Run `yarn dev` and navigate to [http://localhost:1234](http://localhost:1234) on your browser to see the development playground. Code for this website can be found in `docs/index.tsx`.
-3.  Until I start publishing this project to npm, run `yarn link` in this repository & then `yarn link imprest` from within a project you wish to use this. Then you can use `import { Button } from 'imprest';` to access the library!
-
-Any questions, HMU on twitter [@\_lukeharris](https://twitter.com/_lukeharris)
+Visit imprest.dev for more information or get in touch via [discord](https://discord.gg/GE4TKC5) or my personal twitter handle [@\_lukeharris](https://twitter.com/_lukeharris)!
