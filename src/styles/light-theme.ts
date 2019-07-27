@@ -4,7 +4,7 @@ import { Theme } from "./theme";
 import { Breakpoint } from "./breakpoint";
 import { Spacing } from "./spacing";
 
-const colorPrimary = "#550DD1";
+const colorPrimary = "#4055A8";
 
 const colorLight = "#FFFFFF";
 const colorDark = "#000000";
