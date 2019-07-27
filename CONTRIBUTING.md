@@ -4,7 +4,7 @@ First off, thankyou for considering a contribution to Imprest. Contributions are
 
 ## How to file a bug report
 
-So, you've found a bug? Please raise an issue using the bug issue template and please fill out all of the required fields (even if it may not always seem necassary) to aid the fix implementation.
+So, you've found a bug? Please raise an issue using the [bug issue template](https://github.com/luk707/imprest/issues/new?assignees=&labels=bug&template=bug_report.md&title=) and please fill out all of the required fields (even if it may not always seem necassary) to aid the fix implementation.
 
 Also, please check for duplicates before submitting a bug. If you do find a duplicate please comment on it, providing as much context as possible. This will be greatly appreciated as it will raise the visibility of the bug and provide a forum for it's discussion.
 
@@ -12,7 +12,7 @@ When an issue is raised it will go into the github projects bug board. This will
 
 ## How to suggest a new feature
 
-Have an idea or a component you've written that you'd like to put forward to become part of the Imprest library? Please raise an issue using the feature issue template. Please fill out all the required fields so that maintainers can collaborate with the feature's issuer in order to establish a shared vision.
+Have an idea or a component you've written that you'd like to put forward to become part of the Imprest library? Please raise an issue using the [feature issue template](https://github.com/luk707/imprest/issues/new?assignees=&labels=enhancement&template=feature_request.md&title=). Please fill out all the required fields so that maintainers can collaborate with the feature's issuer in order to establish a shared vision.
 
 When a feature is opened it will be moved to the [triage board](https://github.com/luk707/imprest/projects/3). This will allow a maintainer to flesh out the specification and get the component moved to the roadmap board and schedule it's implementation.
 
