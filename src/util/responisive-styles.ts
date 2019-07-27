@@ -67,11 +67,7 @@ export function responsiveStyles<
                   responsiveStyles.reduce(
                     (acc, cur) => ({
                       ...acc,
-                      [cur]:
-                        responsiveParamaterMap[cur].length - 2 >
-                        arr.length - i - 1
-                          ? undefined
-                          : responsiveParamaterMap[cur][arr.length - i - 1]
+                      [cur]: responsiveParamaterMap[cur][arr.length - i - 1]
                     }),
                     {}
                   )

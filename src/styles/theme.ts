@@ -33,4 +33,8 @@ export interface Theme {
   cardBackgroundColor: string;
   cardBorderRadius: string;
   cardShadow: string;
+
+  pageBackgroundColor: string;
+  pageContentBackgroundColor: string;
+  pageContentHorizontalSpacing: Spacing;
 }

@@ -1,4 +1,4 @@
-import { transparentize } from "polished";
+import { transparentize, setLightness } from "polished";
 
 import { Theme } from "./theme";
 import { Breakpoint } from "./breakpoint";
@@ -8,6 +8,9 @@ const colorPrimary = "#4055A8";
 
 const colorLight = "#FFFFFF";
 const colorDark = "#000000";
+
+const pageBackgroundColor = setLightness(0.95, colorPrimary);
+const pageContentBackgroundColor = setLightness(0.97, colorPrimary);
 
 export const lightTheme: Theme = {
   // Color constants
@@ -22,7 +25,7 @@ export const lightTheme: Theme = {
     [Breakpoint.xs]: 414,
     [Breakpoint.sm]: 568,
     [Breakpoint.md]: 768,
-    [Breakpoint.lg]: 1112,
+    [Breakpoint.lg]: 896,
     [Breakpoint.xl]: 1200
   },
 
@@ -62,5 +65,11 @@ export const lightTheme: Theme = {
   cardShadow: `0 2px 2px ${transparentize(
     0.9,
     colorDark
-  )}, 0 2px 4px ${transparentize(0.95, colorDark)}`
+  )}, 0 2px 4px ${transparentize(0.95, colorDark)}`,
+
+  // Page constants
+
+  pageBackgroundColor,
+  pageContentBackgroundColor,
+  pageContentHorizontalSpacing: Spacing.md
 };
