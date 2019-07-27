@@ -30,7 +30,7 @@ You can emit a static version of the documentation site ready for hosting by run
 
 If you wish to build the final artifacts that would be published to NPM. Run `yarn build`. The build artifacts will be saved to the `lib` directory.
 
-Any questions visit the discord channel or
+Any questions visit the [discord channel](https://discord.gg/GE4TKC5) or hmu via twitter [@_lukeharris](https://twitter.com/_lukeharris)
 
 ## Project goals
 
@@ -50,4 +50,4 @@ At some point in time the contents of the [MVP board's](https://github.com/luk70
 
 ## How to get in touch with maintainers
 
-Join the discord channel to get in contact with people interested in the project & it's maintainers. Also feel free to contact [@\_lukeharris](https://twitter.com/_lukeharris) directly on twitter!
+Join the [discord channel](https://discord.gg/GE4TKC5) to get in contact with people interested in the project & it's maintainers. Also feel free to contact [@\_lukeharris](https://twitter.com/_lukeharris) directly on twitter!
