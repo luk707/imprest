@@ -52,7 +52,7 @@ export const lightTheme: Theme = {
     colorLight
   )}, 0px -1px 2px ${transparentize(0.8, colorDark)}`,
   buttonPrimaryBorderRadius: "3px",
-  buttonVerticalPadding: Spacing.sm,
+  buttonVerticalPadding: Spacing.md,
   buttonHorizontalPadding: Spacing.lg,
 
   // Card constants
