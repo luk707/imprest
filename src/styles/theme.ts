@@ -29,4 +29,8 @@ export interface Theme {
   buttonPrimaryBorderRadius: string;
   buttonVerticalPadding: Spacing;
   buttonHorizontalPadding: Spacing;
+
+  cardBackgroundColor: string;
+  cardBorderRadius: string;
+  cardShadow: string;
 }
