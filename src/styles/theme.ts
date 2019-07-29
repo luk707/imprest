@@ -37,4 +37,9 @@ export interface Theme {
   pageBackgroundColor: string;
   pageContentBackgroundColor: string;
   pageContentHorizontalSpacing: Spacing;
+  
+  inputBackgroundColor: string;
+  inputBorderRadius: string;
+  inputVericalPadding: Spacing;
+  inputHorizontalPadding: Spacing;
 }

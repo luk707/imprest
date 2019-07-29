@@ -71,5 +71,12 @@ export const lightTheme: Theme = {
 
   pageBackgroundColor,
   pageContentBackgroundColor,
-  pageContentHorizontalSpacing: Spacing.md
+  pageContentHorizontalSpacing: Spacing.md,
+  
+  // Input constants
+  
+  inputBackgroundColor: colorLight,
+  inputBorderRadius: "3px",
+  inputVerticalPadding: Spacing.md,
+  inputHorizontalPadding: Spacing.lg
 };
