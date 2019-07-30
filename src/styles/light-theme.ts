@@ -71,5 +71,11 @@ export const lightTheme: Theme = {
 
   pageBackgroundColor,
   pageContentBackgroundColor,
-  pageContentHorizontalSpacing: Spacing.md
+  pageContentHorizontalSpacing: Spacing.md,
+  
+  // Focus shadow constants
+  
+  focusShadowColor: transparentize(0.8, colorPrimary),
+  focusShadowSize: "2px"
+  
 };
