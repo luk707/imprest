@@ -8,6 +8,31 @@
 
 A react component library aimed at those who need a solid foundation of react components and view templates that scale with their projects' needs.
 
+# Getting started
+
+To install Imprest run the following command:
+
+```
+yarn add imprest react react-dom @emotion/core @emotion/styled
+```
+
+To use Imprest's components, you must wrap your application with a theme context provider and specifying any valid imprest theme:
+
+```jsx
+import React from "react";
+import ReactDOM from "react-dom";
+
+import { Button, lightTheme } from "imprest";
+import { ThemeContext } from "@emotion/core";
+
+ReactDOM.render(
+  <ThemeContext.Provider value={lightTheme}>
+    <Button>Hello world!</Button>
+  </ThemeContext.Provider>,
+  document.getElementById("root")
+);
+```
+
 # Why is this project useful
 
 Imprest offers a set of themable, reusable components following a rigid atomic design principle. It does so through the implementation of very specific views that are commonly used across many applications, as well as exposing it's foundational components so that users can implement their own more proprietory views.
