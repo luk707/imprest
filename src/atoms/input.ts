@@ -1,4 +1,6 @@
-import { createComponent } from "../utils";
+import { createComponment } from "../util";
 import { inputStyles } from "../styles";
 
-export const Input = createComponent("input")(({ theme }) => inputStyles(theme));
+export const Input = createComponment("input")(({ theme }) =>
+  inputStyles(theme)
+);

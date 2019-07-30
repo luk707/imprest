@@ -2,6 +2,7 @@ export { SpacingParamaters, BoxStyleProps, boxStyles } from "./box";
 export { Breakpoint } from "./breakpoint";
 export { buttonPrimaryStyles } from "./button";
 export { cardStyles } from "./card";
+export { focusShadowStyles } from "./focus-shadow";
 export { globalStyles } from "./global-styles";
 export { inputStyles } from "./input";
 export { lightTheme } from "./light-theme";
