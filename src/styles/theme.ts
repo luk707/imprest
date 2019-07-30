@@ -38,6 +38,13 @@ export interface Theme {
   pageContentBackgroundColor: string;
   pageContentHorizontalSpacing: Spacing;
 
+  inputBackgroundColor: string;
+  inputBorderRadius: string;
+  inputVerticalPadding: Spacing;
+  inputHorizontalPadding: Spacing;
+  inputBorder: string;
+  inputShadow?: string;
+
   focusShadowColor: string;
   focusShadowSize: string;
   focusShadowTransitionDuration: string;

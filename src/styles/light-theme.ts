@@ -73,6 +73,15 @@ export const lightTheme: Theme = {
   pageContentBackgroundColor,
   pageContentHorizontalSpacing: Spacing.md,
 
+  // Input constants
+
+  inputBackgroundColor: colorLight,
+  inputBorderRadius: "3px",
+  inputVerticalPadding: Spacing.md,
+  inputHorizontalPadding: Spacing.lg,
+  inputBorder: "none",
+  inputShadow: `inset 0 1px 1px ${transparentize(0.9, colorDark)}`,
+
   // Focus shadow constants
 
   focusShadowColor: transparentize(0.8, colorPrimary),

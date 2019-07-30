@@ -5,6 +5,7 @@ import { ThemeContext, Global } from "@emotion/core";
 import {
   Button,
   Card,
+  Input,
   PageTemplate,
   lightTheme,
   Spacing,
@@ -33,6 +34,10 @@ render(
         >
           Hello world!
         </Card>
+      </section>
+      <section>
+        <h1>Input</h1>
+        <Input />
       </section>
     </PageTemplate>
   </ThemeContext.Provider>,
