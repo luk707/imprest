@@ -2,6 +2,7 @@ import { CSSObject } from "@emotion/core";
 
 import { Theme } from "./theme";
 import { boxStyles } from "./box";
+import { focusShadowStyles } from "./focus-shadow";
 
 export function buttonPrimaryStyles(theme: Theme): CSSObject {
   const {
@@ -20,9 +21,9 @@ export function buttonPrimaryStyles(theme: Theme): CSSObject {
     borderRadius: buttonPrimaryBorderRadius,
     cursor: "pointer",
     backgroundColor: buttonPrimaryBackgroundColor,
-    boxShadow: buttonPrimaryShadow,
     textShadow: buttonPrimaryTextShadow,
     color: buttonPrimaryTextColor,
+    ...focusShadowStyles(theme, buttonPrimaryShadow),
     ...boxStyles({
       theme,
       px: spacings[buttonHorizontalPadding],
