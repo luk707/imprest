@@ -1,5 +1,6 @@
 import React from "react";
 import { render } from "react-dom";
+import { readFileSync } from "fs";
 
 import { ThemeContext, Global } from "@emotion/core";
 import {
@@ -9,8 +10,28 @@ import {
   PageTemplate,
   lightTheme,
   Spacing,
-  globalStyles
+  globalStyles,
+  CodeBlock
 } from "../src";
+
+import ButtonExample from "./button-example";
+import CardExample from "./card-example";
+import InputExample from "./input-example";
+
+const cleanSrc = (src: string) =>
+  src.replace(/\.\.\/src/, "imprest").replace(/\n$/, "");
+
+const buttonExampleSource = cleanSrc(
+  readFileSync(__dirname + "/button-example.tsx", "utf-8").toString()
+);
+
+const cardExampleSource = cleanSrc(
+  readFileSync(__dirname + "/card-example.tsx", "utf-8").toString()
+);
+
+const inputExampleSource = cleanSrc(
+  readFileSync(__dirname + "/input-example.tsx", "utf-8").toString()
+);
 
 render(
   <ThemeContext.Provider value={lightTheme}>
@@ -18,26 +39,18 @@ render(
     <PageTemplate>
       <section>
         <h1>Button</h1>
-        <Button
-          onClick={() => {
-            alert("Hello world!");
-          }}
-        >
-          Click me!
-        </Button>
+        <ButtonExample />
+        <CodeBlock showLineNumbers language="jsx" code={buttonExampleSource} />
       </section>
       <section>
         <h1>Card</h1>
-        <Card
-          py={lightTheme.spacings[Spacing.md]}
-          px={lightTheme.spacings[Spacing.md]}
-        >
-          Hello world!
-        </Card>
+        <CardExample />
+        <CodeBlock showLineNumbers language="jsx" code={cardExampleSource} />
       </section>
       <section>
         <h1>Input</h1>
-        <Input />
+        <InputExample />
+        <CodeBlock showLineNumbers language="jsx" code={inputExampleSource} />
       </section>
     </PageTemplate>
   </ThemeContext.Provider>,

@@ -7,6 +7,7 @@ export interface Theme {
   colorDark: string;
 
   fontFamily: string;
+  monoFontFamily: string;
 
   breakpoints: {
     [Breakpoint.xs]: number;
@@ -50,4 +51,6 @@ export interface Theme {
   focusShadowColor: string;
   focusShadowSize: string;
   focusShadowTransitionDuration: string;
+
+  codeBlockSpacing: Spacing;
 }

@@ -22,6 +22,7 @@ export const lightTheme: Theme = {
   // Typography constants
   fontFamily:
     '-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif',
+  monoFontFamily: "'Fira Code', monospace",
 
   // Breakpoint constants
 
@@ -90,5 +91,9 @@ export const lightTheme: Theme = {
 
   focusShadowColor: transparentize(0.8, colorPrimary),
   focusShadowSize: "5px",
-  focusShadowTransitionDuration: "100ms"
+  focusShadowTransitionDuration: "100ms",
+
+  // Code block constants
+
+  codeBlockSpacing: Spacing.md
 };
