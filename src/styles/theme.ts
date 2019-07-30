@@ -37,4 +37,8 @@ export interface Theme {
   pageBackgroundColor: string;
   pageContentBackgroundColor: string;
   pageContentHorizontalSpacing: Spacing;
+
+  focusShadowColor: string;
+  focusShadowSize: string;
+  focusShadowTransitionDuration: string;
 }
