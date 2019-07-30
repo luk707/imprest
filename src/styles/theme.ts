@@ -6,6 +6,8 @@ export interface Theme {
   colorLight: string;
   colorDark: string;
 
+  fontFamily: string;
+
   breakpoints: {
     [Breakpoint.xs]: number;
     [Breakpoint.sm]: number;
