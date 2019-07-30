@@ -10,9 +10,6 @@
     "/lib"
   ],
   "dependencies": {
-    "@emotion/core": "^10.0.14",
-    "@emotion/styled": "^10.0.14",
-    "@types/node": "^12.6.8",
     "polished": "^3.4.1",
     "prism-react-renderer": "^0.1.7",
     "react": "^16.8.6",
@@ -24,14 +21,17 @@
     "@babel/preset-env": "^7.5.5",
     "@babel/preset-react": "^7.0.0",
     "@babel/preset-typescript": "^7.3.3",
-    "@types/react": "^16.8.23",
+    "@types/node": "^12.6.8",
     "@types/react-dom": "^16.8.5",
+    "@types/react": "^16.8.23",
     "parcel-bundler": "^1.12.3",
     "typescript": "^3.5.3"
   },
   "peerDependencies": {
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "@emotion/core": "^10.0.14",
+    "@emotion/styled": "^10.0.14",
+    "react-dom": "^16.8.6",
+    "react": "^16.8.6"
   },
   "scripts": {
     "dev": "parcel docs/index.html",
