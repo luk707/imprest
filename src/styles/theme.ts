@@ -6,6 +6,9 @@ export interface Theme {
   colorLight: string;
   colorDark: string;
 
+  fontFamily: string;
+  monoFontFamily: string;
+
   breakpoints: {
     [Breakpoint.xs]: number;
     [Breakpoint.sm]: number;
@@ -37,4 +40,17 @@ export interface Theme {
   pageBackgroundColor: string;
   pageContentBackgroundColor: string;
   pageContentHorizontalSpacing: Spacing;
+
+  inputBackgroundColor: string;
+  inputBorderRadius: string;
+  inputVerticalPadding: Spacing;
+  inputHorizontalPadding: Spacing;
+  inputBorder: string;
+  inputShadow?: string;
+
+  focusShadowColor: string;
+  focusShadowSize: string;
+  focusShadowTransitionDuration: string;
+
+  codeBlockSpacing: Spacing;
 }

@@ -19,6 +19,11 @@ export const lightTheme: Theme = {
   colorLight,
   colorDark,
 
+  // Typography constants
+  fontFamily:
+    '-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif',
+  monoFontFamily: "'Fira Code', monospace",
+
   // Breakpoint constants
 
   breakpoints: {
@@ -71,5 +76,24 @@ export const lightTheme: Theme = {
 
   pageBackgroundColor,
   pageContentBackgroundColor,
-  pageContentHorizontalSpacing: Spacing.md
+  pageContentHorizontalSpacing: Spacing.md,
+
+  // Input constants
+
+  inputBackgroundColor: colorLight,
+  inputBorderRadius: "3px",
+  inputVerticalPadding: Spacing.md,
+  inputHorizontalPadding: Spacing.lg,
+  inputBorder: "none",
+  inputShadow: `inset 0 1px 1px ${transparentize(0.9, colorDark)}`,
+
+  // Focus shadow constants
+
+  focusShadowColor: transparentize(0.8, colorPrimary),
+  focusShadowSize: "5px",
+  focusShadowTransitionDuration: "100ms",
+
+  // Code block constants
+
+  codeBlockSpacing: Spacing.md
 };
