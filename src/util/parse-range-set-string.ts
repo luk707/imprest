@@ -21,6 +21,9 @@ export function parseRangeSetString(
     for (let i = rangeStart; i <= rangeEnd; i++) {
       newRangeSet.add(i);
     }
+    // TODO: Use something other than a generator function
+    // to prevent the generated bundle emiting calls to
+    // regenerator.
     rangeSet = new Set<number>(
       (function*() {
         yield* rangeSet;
