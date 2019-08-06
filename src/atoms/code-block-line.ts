@@ -12,6 +12,7 @@ interface CodeBlockLineStyleProps {
 
 export const CodeBlockLine = createComponment("div")<CodeBlockLineStyleProps>(
   ({ theme }) => codeBlockLineStyles(theme),
+  // TODO: Move these styles to styles directory, this should not be a concern of the component.
   ({ highlighted }) => {
     if (highlighted) {
       return {
